@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html land="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+        <title>Comments in Javascript</title>
+
+        <!-- this is for no external link/file for Javascript, use document.write for non alert box text! --> 
+            <script>
+                //single line comments in JS, this code loads first before alert.js 
+                document.write("Hello There");
+            </script>
+        
+
+        <script src="alert.js"></script>
+        
+    </head>
+
+    <body>
+        <h1 id="title"> </h1>
+         
+        <script>
+            /* oof did you know this is another comment type, but it works only under the script tag :c */
+            document.getElementById('title').innerHTML = 'Displaying Javascript in web pages'; 
+        </script>
+
+    </body>
+</html>

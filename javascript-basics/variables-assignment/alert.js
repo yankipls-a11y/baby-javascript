@@ -1,0 +1,1 @@
+alert("Javascript is working in the external files");
